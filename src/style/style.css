@@ -494,6 +494,7 @@ section .date {
   background: #021d44;
   font-weight: 600;
   line-height: 40px;
+  text-align: center;
 }
 
 section h3 {

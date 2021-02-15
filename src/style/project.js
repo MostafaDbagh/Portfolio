@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import projimg from '../image/dubaiproj.png'
+
 
 export const Parentimg = styled.div`
 width:440px;

@@ -18,15 +18,15 @@ const Jourey = () => {
          graduation Year 28/3/2020
          My average was Good
          With different  experience and Projects 
-         
-         <p style={{textAlign:'left',marginLeft:'0',marginBottom:'0'}}>Academic Projects</p> 
-         <ul style={{textAlign:'left',height:''}}>
+         </p>
+         <p style={{textAlign:'left',marginLeft:'32px',marginBottom:'0'}}>Academic Projects</p> 
+         <ul style={{textAlign:'left',padding:'15px',margin:'15px 0 0 32px',fontWeight:'bold',fontSize:'20px'}}>
              <li style={{height:'30px'}}>Voice Recognition Using C#</li>
              <li style={{height:'30px'}}> OCR Application Using C#,Aforge</li>
              <li> Vehical guided by Image</li>
              </ul> 
              <div style={{width:'100%',height:'20px'}}></div> 
-             </p>
+           
       </section>  
   <section>
       <h5 className="date">2017-2021</h5>

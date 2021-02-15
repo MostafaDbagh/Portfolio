@@ -26,14 +26,15 @@ I’m a full-stack developer which means I can bring your project from concept t
     <p style={{lineHeight:'22px',fontFamily:'open Sans',marginTop:'4px',}}>
     I primarily use React for front-end development and Nodejs with Express framework, but picking up a new framework or language isn't a problem. 
     I have extensive programming experience and I'm comfortable developing on the frontend or backend as well as setting up or managing infrastructure.
+    </p>
 <p style={{lineHeight:'22px',fontFamily:'open Sans',marginTop:'4px',width:'80%'}}>
 Have a project you'd like to discuss? <br/>
-Let's chat <a href="#">mostafadbagh52@gmail.com</a>
+Let's chat <a >mostafadbagh52@gmail.com</a>
 </p>
 
     
             
-        </p>
+        
 
     </div> 
     

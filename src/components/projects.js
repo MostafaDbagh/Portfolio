@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/style.css'
-import {Parentimg,Span,Para,Anchor} from '../style/project'
+import {Parentimg,Para,Anchor} from '../style/project'
 import project from '../image/dubaiproj.png'
 const Projects = () => {
     return ( 
@@ -14,7 +14,7 @@ const Projects = () => {
           <img src={project} alt="first-app" width='100%' height='100%'/>
           <Para top='45%'>First App in Dubai</Para>
           <Para top='55%'>Yamazaki Bakery</Para>
-          <Anchor href="#" target='blank'>Show website</Anchor>
+          <Anchor href="https://novasweetcafe.herokuapp.com/" target='blank'>Show website</Anchor>
       </Parentimg>
 
       

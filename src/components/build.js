@@ -18,7 +18,7 @@ const Build = () => {
 
             <div className="s-build">
              <span>
-             <i class="fal fa-palette icon"></i>
+             <i className="fal fa-palette icon"></i>
              </span>
             
 <div className="line"></div>        
@@ -35,7 +35,7 @@ const Build = () => {
             </div>
             <div className="s-build">
                 <span>
-                <i class="far fa-desktop-alt icon"></i>
+                <i className="far fa-desktop-alt icon"></i>
                 </span>
          
             <div className="line"></div>
@@ -48,7 +48,7 @@ const Build = () => {
             </div>
             <div className="s-build">
                 <span>
-                <i class="far fa-brackets-curly icon"></i>
+                <i className="far fa-brackets-curly icon"></i>
                 </span>
             
             <div className="line"></div>

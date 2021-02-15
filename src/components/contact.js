@@ -9,10 +9,10 @@ const Contact = () => {
                 <div style={{width:"100%",height:"16px"}}></div>
                 <h2 style={{textAlign:'center',margin:"32px auto",color:'#dee2e7',fontSize:'34px',letterSpacing:'2px'}}>  Contact</h2>
                 <ul className='contactlist' >
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-github"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i className="fab fa-github"></i></a></li>
+                <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
             </ul>
                       <div className='contactdiv'>
             <h3 style={{marginBottom:"20px",fontSize:"26px",letterSpacing:'1px', fontWeight:'bold'}}>Call To Action</h3>

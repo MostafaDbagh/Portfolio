@@ -1,6 +1,8 @@
 import React from 'react';
-import '../style/contentstyle.css'
+
 import '../style/style.css'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 const Content = () => {
     return (  
         <>

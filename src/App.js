@@ -1,12 +1,12 @@
-import React from 'react';
+
 import './App.css'
 import './style/style.css'
 import {Heading,Container,Content,Build,Contact,Footer,Myjourney, Projects} from './components'
-
+import React from 'react'
 
 function App() {
   return (
-    <div className="App">
+ <>
 <Heading/>
 <Container/>
 <Content/>
@@ -16,7 +16,7 @@ function App() {
 
 <Contact/>
 <Footer/>
-    </div>
+    </>
   );
 }
 

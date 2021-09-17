@@ -5,7 +5,7 @@ export const Parentimg = styled.div`
 width:440px;
 height:370px;
 position:relative;
-
+margin: 0 32px;
 &::before{
     position: absolute;
     content: '';
@@ -43,7 +43,7 @@ transform: translate(-50%,-50%);
 color: $font-color;
 font-size: 24px;
 font-weight: 700;
-font-family: $heading-font;
+font-family: Open Sans', sans-serif;
 opacity: 0;
 transition: .6s ease opacity;
 letter-spacing: 1px;

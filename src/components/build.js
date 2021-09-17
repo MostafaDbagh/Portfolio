@@ -1,6 +1,9 @@
 import React from 'react';
-import '../style/style.css'
+import {useEffect} from 'react'
 
+import '../style/style.css'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 const Build = () => {
     const parastyle= {
      fontSize:'24px',
@@ -10,11 +13,19 @@ const Build = () => {
         margin:"20px 0 0 ",
         fontSize:"18px"
     }
+    useEffect(()=>{
+        Aos.init({duration:2000})
+        Aos.refresh()
+       
+     
+    
+       
+    },[])
     return ( 
         <>
         <h2 className="sec-start">What I Can Do</h2>
 
-        <div className="p-build">
+        <div className="p-build" >
 
             <div className="s-build">
              <span>
@@ -35,7 +46,7 @@ const Build = () => {
             </div>
             <div className="s-build">
                 <span>
-                <i className="far fa-desktop-alt icon"></i>
+              
                 </span>
          
             <div className="line"></div>
@@ -48,7 +59,7 @@ const Build = () => {
             </div>
             <div className="s-build">
                 <span>
-                <i className="far fa-brackets-curly icon"></i>
+               
                 </span>
             
             <div className="line"></div>

@@ -158,16 +158,11 @@ background: $Secondarycolor;
            
 
 ////////////////////////////////////
-@keyframes tech{
-    0% {right: -900px}
-    100%{right: 0;}
-}
+
 .about-para{
     width: 94%;
-   
    margin: 0 auto;
- display: grid;
- 
+   display: grid;
  grid-template-columns: 1fr 1fr 1fr 2fr ;
  grid-template-rows: 1fr,1fr;
     color: #78909c;
@@ -203,39 +198,8 @@ background: $Secondarycolor;
 
 
 }
-.one{
-    animation-duration: .2s;
-}
-.two{
-    animation-duration: .3s;
-}
-.three{
-    animation-duration: .4s;
-}
-.four{
-    animation-duration: .5s;
-}
-.five{
-    animation-duration: .6s;
-}
-.six{
-    animation-duration: .7s;
-}
-.seven{
-    animation-duration: .8s;
-}
-.eight{
-    animation-duration: .9s;
-}
-.nine{
-    animation-duration: .10s;
-}
-.ten{
-    animation-duration: 1.1s;
-}
-.eleven{
-    animation-delay: 1.2s;
-}
+
+
 
 .more-info{
     width: 100%;
@@ -294,8 +258,8 @@ background: $Secondarycolor;
             }
             .s-build{
                 text-align: center;
-                width:408px;
-                height: 425px;
+                width:300px;
+                height: 405px;
                 margin: 8px auto;
                 padding:60px;
                 color: $font-color;
